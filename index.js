@@ -4,21 +4,26 @@ let userClickedPattern = [];
 let started = false;
 let level = 0;
 
-$(document).keydown(function () {
-  if (!started) {
-    $("#level-title").text("Level " + level);
-    nextSequence();
-    started = true;
-  }
+
+$(".start").click(function () {
+ if(!started) {
+      $("#level-title").text("Level " + level);
+      nextSequence();
+      started = true;
+      }
 });
 
-$(document).touchstart(function () {
-  if(!started) {
-  $("#level-title").text("Level " + level);
-  nextSequence();
-  started = true;
-  }
-});
+// $(document).keydown(function () {
+//   if (!started) {
+//     $("#level-title").text("Level " + level);
+//     nextSequence();
+//     started = true;
+//   }
+// });
+
+// $(document).touchstart(function () {
+//   
+// });
 
 $(".btn").click(function () {
   let userChosenColour = $(this).attr("id");

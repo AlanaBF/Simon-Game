@@ -30,6 +30,21 @@ body {
   opacity: 0.8;
 }
 
+.start{
+background-color: coral;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+height: 50px;
+width: 50%;
+font-family: 'Press Start 2P', cursive;
+border: 10px solid black;
+border-radius: 20px;
+
+}
+
 .red {
   background-color: red;
 }
