@@ -14,7 +14,6 @@ body {
   display: block;
   width: 50%;
   margin: auto;
-
 }
 
 .btn {
@@ -52,7 +51,7 @@ body {
   background-color: grey;
 }
 
-@media (max-width: 545px) {
+@media (max-width: 1104px) {
   .btn {
     margin: 25px;
     display: flex;
