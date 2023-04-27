@@ -4,7 +4,7 @@ let userClickedPattern = [];
 let started = false;
 let level = 0;
 
-$(document).keydown()||touchstart(function () {
+$(document).keydown(function () {
   if (!started) {
     $("#level-title").text("Level " + level);
     nextSequence();

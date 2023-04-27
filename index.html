@@ -33,6 +33,19 @@
 
     </div>
 
+<script>
+$("level-title").addEventListener("touchstart", myFunction);
+
+function myFunction() {
+   $("#level-title").text("Level " + level);
+    nextSequence();
+    started = true;
+}
+</script>
+
+
+
+
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 <script src="./index.js" charset="utf-8"></script>
