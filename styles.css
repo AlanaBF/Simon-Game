@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color:  #181d31;
+  background-color: #181d31;
 }
 
 #level-title {
@@ -69,12 +69,12 @@ body {
 @media only screen and (max-width: 600px) {
   #level-title {
     font-size: 1rem;
-  } 
+  }
   .btn {
     margin: 10px;
     display: inline-block;
-    height: 150px;
-    width: 150px;
+    height: 250px;
+    width: 250px;
     border: 10px solid black;
     border-radius: 20%;
   }
@@ -83,7 +83,7 @@ body {
 @media only screen and (min-width: 600px) {
   #level-title {
     font-size: 1.5rem;
-  } 
+  }
   .btn {
     margin: 10px;
     display: inline-block;
